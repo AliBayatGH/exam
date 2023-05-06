@@ -1,0 +1,13 @@
+dotnet ef migrations add UpdatedmessageDesc --project .\ExirSystemPooya.Exercise.Infrastructure\ --startup-project .\ExirSystemPooya.Exercise.API -c ESPExerciseDbContext -o .\Migrations
+
+dotnet ef migrations script 20230430061035_UpdatedDataType -c ESPExerciseDbContext --project .\ExirSystemPooya.Exercise.API\ -o .\ExirSystemPooya.Exercise.Infrastructure\Migrations\Script.txt
+
+Set-DefaultProject -ProjectName ExirSystemPooya.Exercise.Infrastructure
+
+
+Add-Migration Initial -Project Exam.Infrastructure -StartupProject Exam.API
+
+Update-Database -Project ExirSystemPooya.Exercise.Infrastructure -StartupProject ExirSystemPooya.Exercise.Api
+
+
+
