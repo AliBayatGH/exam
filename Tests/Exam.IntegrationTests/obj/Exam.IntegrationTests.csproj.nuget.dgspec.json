@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SourceControl\\Workspace\\Exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj": {}
+    "C:\\Users\\sina\\Source\\Repos\\exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj": {}
   },
   "projects": {
-    "D:\\SourceControl\\Workspace\\Exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj": {
+    "C:\\Users\\sina\\Source\\Repos\\exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceControl\\Workspace\\Exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\sina\\Source\\Repos\\exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj",
         "projectName": "Exam.IntegrationTests",
-        "projectPath": "D:\\SourceControl\\Workspace\\Exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj",
-        "packagesPath": "C:\\Users\\kaveh naseri\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceControl\\Workspace\\Exam\\Tests\\Exam.IntegrationTests\\obj\\",
+        "projectPath": "C:\\Users\\sina\\Source\\Repos\\exam\\Tests\\Exam.IntegrationTests\\Exam.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\sina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sina\\Source\\Repos\\exam\\Tests\\Exam.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kaveh naseri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,12 +75,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
